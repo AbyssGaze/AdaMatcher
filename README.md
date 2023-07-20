@@ -1,4 +1,7 @@
 # AdaMatcher: Adaptive Assignment for Geometry Aware Local Feature Matching
+
+### Code has been migrated to official repository: https://github.com/TencentYoutuResearch/AdaMatcher
+
 ### [Paper](https://arxiv.org/abs/2207.08427)
 
 <br/>
