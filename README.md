@@ -1,18 +1,17 @@
 # AdaMatcher: Adaptive Assignment for Geometry Aware Local Feature Matching
-
-### Code has been migrated to official repository: https://github.com/TencentYoutuResearch/AdaMatcher
-
 ### [Paper](https://arxiv.org/abs/2207.08427)
 
 <br/>
 
 > Adaptive Assignment for Geometry Aware Local Feature Matching
-> Dihe Huang<sup>\*</sup>, Ying Chen<sup>\*</sup>, Jianlin Liu], Yong Liu, Shang Xu, Wenlong Wu, Yikang Ding, Fan Tang, Chengjie Wang
+> Dihe Huang<sup>\*</sup>, Ying Chen<sup>\*</sup>, Yong Liu, Jianlin Liu, Shang Xu, Wenlong Wu, Yikang Ding, Fan Tang, Chengjie Wang
 > CVPR 2023
 
-![network](assets/network.pdf)
+:triangular_flag_on_post: **Updates**
+Code has been migrated to official repository: https://github.com/TencentYoutuResearch/AdaMatcher
 
-> Since our code open source requires review and related patent support, we need to complete the application for the relevant process, and it is expected that the open source will be completed around April 1.
+![network](assets/network.png)
+
 
 
 ## Installation
@@ -31,7 +30,7 @@ For the data utilized for training, we use the same training data as [LoFTR](htt
 
 
 ### Megadepth validation
-For different scales, you need edit ![megadepth_test_scale_1000](configs/data/megadepth_test_scale_1000.py).
+For different scales, you need edit [megadepth_test_scale_1000](configs/data/megadepth_test_scale_1000.py).
 
 ```shell
 # with shell script
@@ -65,7 +64,7 @@ If you find this code useful for your research, please use the following BibTeX 
 ```bibtex
 @article{Huang2023adamatcher,
   title={Adaptive Assignment for Geometry Aware Local Feature Matching},
-  author={Dihe Huang, Ying Chen, Jianlin Liu], Yong Liu, Shang Xu, Wenlong Wu, Yikang Ding, Fan Tang, Chengjie Wang},
+  author={Dihe Huang, Ying Chen, Yong Liu, Jianlin Liu, Shang Xu, Wenlong Wu, Yikang Ding, Fan Tang, Chengjie Wang},
   journal={{CVPR}},
   year={2023}
 }
